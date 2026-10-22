@@ -1,5 +1,5 @@
 # apache with php base image 
-FROM php:8.0-apache
+FROM php:8.4-apache
 
 # copy all contents to public html
 COPY . /var/www/html
